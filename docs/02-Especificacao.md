@@ -115,3 +115,9 @@ Nesta parte do documento, serão abordados:
 | **001** | O projeto possui caráter estritamente acadêmico, o que inviabiliza custos previstos com infraestruturas pagas de hospedagem ou licenciamento corporativo. |
 | **002** | O sistema web deve obrigatoriamente ser desenvolvido utilizando a arquitetura de software recomendada pela instituição parceira e escopo do curso. |
 | **003** | O prazo limite para a entrega do sistema funcional documentado e revisado encerra-se impreterivelmente ao final do semestre letivo corrente. |
+
+## Diagrama de Casos de Uso
+
+Com base nos processos reais identificados no trabalho (Gestão Acadêmica, Evolução por Habilidades Técnicas e Módulo Financeiro de Mensalidades), o escopo de Casos de Uso do sistema é representado abaixo:
+<img width="732" height="652" alt="diagrama_blackbelt_final" src="https://github.com/user-attachments/assets/475626e3-6c46-4e6e-aee9-515a4b14fee7" />
+
