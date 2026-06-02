@@ -10,12 +10,12 @@ O projeto, desenvolvido pelo grupo Black Belt, tem como objetivo criar e impleme
 
 ## Integrantes
 
-Arthur Lima<br>
-Bárbara Xavier<br>
-Carolina Alves Baião Pessoa<br>
-Leni Rocha Bento<br>
-Pedro Arley Paes Maia<br>
-Rafael Romagnoli Conforte Cesario<br>
+* Arthur Lima<br>
+* Bárbara Xavier<br>
+* Carolina Alves Baião Pessoa<br>
+* Leni Rocha Bento<br>
+* Pedro Arley Paes Maia<br>
+* Rafael Romagnoli Conforte Cesario<br>
 
 ## Professor
 
