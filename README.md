@@ -2,26 +2,24 @@
 
 `CURSO: Sistemas de Informação`
 
-`DISCIPLINA: Trabalho Interdisciplinar Aplicações para Sustentabilidade`
+`DISCIPLINA: Trabalho Interdisciplinar: Sistemas Integrados de Gestão Empresarial`
 
-`1º semestre/2025`
+`1º semestre/2026`
 
 O projeto, desenvolvido pelo grupo Black Belt, tem como objetivo criar e implementar um sistema automatizado de gestão da frequência e do desempenho dos alunos da academia Sigma, especializada na prática de Jiu-jitsu. A solução visa oferecer maior precisão no controle das presenças, possibilitar o acompanhamento individualizado da evolução técnica de cada praticante e disponibilizar dados estratégicos para auxiliar professores e gestores no planejamento e na organização das turmas. Com isso, busca-se melhorar a experiência dos alunos, otimizar os processos administrativos da academia e contribuir para a retenção dos praticantes por meio de um acompanhamento mais eficaz e personalizado.
 
 ## Integrantes
 
-Bruna Vitória de Oliveira Souza<br>
+Arthur Lima<br>
+Bárbara Xavier<br>
 Carolina Alves Baião Pessoa<br>
-Lucas Henrique da Silva Rabelo<br>
+Leni Rocha Bento<br>
 Pedro Arley Paes Maia<br>
 Rafael Romagnoli Conforte Cesario<br>
-Sandy Costa Santos<br>
-Vinícius de Andrade Rodrigues
 
 ## Professor
 
-Maria Inês Lage de Paula<br>
-Paulo Henrique Rodrigues
+Paulo Isnard<br>
 
 
 # Documentação
