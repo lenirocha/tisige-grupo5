@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8" />
@@ -58,6 +58,10 @@
 
                         <a class="mx-2" asp-area="" asp-controller="Alunos" asp-action="Index">👤 Alunos</a>
 
+                    }
+                    @if (User.IsInRole("Admin") || User.IsInRole("Auxiliar"))
+                    {
+                        <a class="mx-2" asp-area="" asp-controller="Mensalidades" asp-action="Index">💲 Mensalidades</a>
                     }
                     @if (User.IsInRole("Admin") || User.IsInRole("Instrutor"))
                     {
