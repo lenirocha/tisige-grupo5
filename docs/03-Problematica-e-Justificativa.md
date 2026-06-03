@@ -1,5 +1,4 @@
 # 3. Problemática e Justificativa  
-
 ---
 ## 3.1 Problemática
 
@@ -16,7 +15,6 @@ A falta de integração entre frequência, desempenho e situação financeira im
 Diante desse cenário, surge a seguinte questão de pesquisa: 
 
 Como o desenvolvimento de um sistema automatizado pode melhorar a gestão da frequência, o acompanhamento do desempenho técnico e o controle financeiro dos alunos de Jiu-jitsu em uma academia? 
-
 ---
 
 ## 3.2 Justificativa
@@ -27,5 +25,3 @@ A realização deste projeto se justifica sob três perspectivas:
 * **Corporativa:** auxilia na gestão da academia, reduzindo falhas operacionais, melhorando o controle financeiro e apoiando a tomada de decisões estratégicas. 
 
 * **Acadêmica:** agrega valor ao campo de Sistemas de Informação ao propor uma solução aplicada que integra gestão esportiva e tecnologia, podendo servir como base para estudos futuros. 
-
-
