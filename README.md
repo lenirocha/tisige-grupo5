@@ -41,6 +41,3 @@ Paulo Isnard<br>
 
 * <a href="src/BlackBelt">Código</a>
 
-# Apresentação
-
-* <a href="presentation/README.md">Apresentação do projeto</a>
