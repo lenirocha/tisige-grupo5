@@ -4,106 +4,99 @@
     ViewData["Title"] = "Controle de Mensalidades";
 }
 
-<div class="container mt-4">
-    <div class="text-center mb-4">
-        <h2>Controle de Mensalidades</h2>
+@section Styles {
+    <link rel="stylesheet" href="~/css/Mensalidades.css" asp-append-version="true" />
+}
+
+<h1 class="text-center m-5">Controle de Mensalidades</h1>
+
+<div class="container text-center">
+    <div class="mb-5">
+        <a class="btn btn-dark" style="border-radius: 20px; width:180px" asp-area="" asp-controller="Home" asp-action="Index">Voltar</a>
     </div>
 
-    <form asp-action="Index" method="get" class="mb-4">
-        <div class="row gx-2">
-            <div class="col-md-4 mb-2 mb-md-0">
-                <input type="text" name="searchString" value="@ViewBag.SearchString" class="form-control" placeholder="Filtrar por nome...">
-            </div>
-            <div class="col-md-3 mb-2 mb-md-0">
-                <select name="statusFilter" class="form-select">
-                    <option value="">Todos os Status</option>
-                    @if (ViewBag.StatusFilter == "Em dia")
-                    {
-                        <option value="Em dia" selected>Em dia</option>
-                    }
-                    else
-                    {
-                        <option value="Em dia">Em dia</option>
-                    }
+    <!-- Filtros -->
+    <form method="get" asp-controller="Mensalidades" asp-action="Index" class="row filter-section justify-content-center">
+        <div class="col-md-4 mb-2" style="width:270px;">
+            <input type="text" name="searchString" value="@ViewBag.SearchString" class="form-control rounded-pill border border-dark" placeholder="Filtrar por nome" />
+        </div>
+        <div class="col-md-4 mb-2" style="width:270px;">
+            <select name="statusFilter" class="form-control rounded-pill border border-dark">
+                <option value="">Todos os Status</option>
+                @if (ViewBag.StatusFilter == "Em dia")
+                {
+                    <option value="Em dia" selected>Em dia</option>
+                }
+                else
+                {
+                    <option value="Em dia">Em dia</option>
+                }
 
-                    @if (ViewBag.StatusFilter == "Atrasado")
-                    {
-                        <option value="Atrasado" selected>Atrasado</option>
-                    }
-                    else
-                    {
-                        <option value="Atrasado">Atrasado</option>
-                    }
-                </select>
-            </div>
-            <div class="col-md-2">
-                <button type="submit" class="btn btn-secondary w-100" style="background-color: #a3a3a3; border-color: #a3a3a3; border-radius: 20px;">Filtro</button>
-            </div>
+                @if (ViewBag.StatusFilter == "Atrasado")
+                {
+                    <option value="Atrasado" selected>Atrasado</option>
+                }
+                else
+                {
+                    <option value="Atrasado">Atrasado</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-2 mb-2 d-flex" style="width:30%; gap:10px;">
+            <button type="submit" class="btn filter-btn w-100 rounded-pill">Filtrar</button>
+            <a href="@Url.Action("Index", "Mensalidades")" class="btn btn-outline-secondary rounded-pill w-100">Limpar</a>
         </div>
     </form>
 
-    <div class="table-responsive">
-        <table class="table table-hover align-middle">
-            <thead class="text-muted">
-                <tr>
-                    <th>Nome</th>
-                    <th class="text-center">Status</th>
-                    <th class="text-center">Último Pagamento</th>
-                    <th class="text-center">Próximo Pagamento</th>
-                    <th class="text-end">Saldo</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in Model)
-                {
+    @if (Model == null || !Model.Any())
+    {
+        <p>Nenhum registro encontrado.</p>
+    }
+    else
+    {
+        <div>
+            <table class="tabelaInfo">
+                <thead>
                     <tr>
-                        <td class="fw-bold">@item.Nome</td>
-                        <td class="text-center">
-                            @if (item.Status == "Em dia")
-                            {
-                                <span class="badge text-dark fw-normal" style="background-color: #e0e0e0; border: 1px solid #ccc; padding: 6px 12px; border-radius: 12px;">Em dia</span>
-                            }
-                            else if (item.Status == "Atrasado")
-                            {
-                                <span class="badge text-dark fw-normal" style="background-color: #d0d0d0; border: 1px solid #aaa; padding: 6px 12px; border-radius: 12px;">Atrasado</span>
-                            }
-                            else
-                            {
-                                <span class="badge bg-light text-dark border fw-normal" style="padding: 6px 12px; border-radius: 12px;">@item.Status</span>
-                            }
-                        </td>
-                        <td class="text-center">@(item.UltimoPagamento.HasValue ? item.UltimoPagamento.Value.ToString("dd/MM/yyyy") : "-")</td>
-                        <td class="text-center">@(item.ProximoPagamento.HasValue ? item.ProximoPagamento.Value.ToString("dd/MM/yyyy") : "-")</td>
-                        <td class="text-end">@(item.Saldo.ToString("C"))</td>
-                        <td class="text-end">
-                            <a asp-action="Detalhes" asp-route-id="@item.AlunoId" class="btn btn-sm btn-light border" style="border-radius: 12px; background-color: #f1f1f1;">Detalhes</a>
-                        </td>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Último Pagamento</th>
+                        <th scope="col">Próximo Pagamento</th>
+                        <th scope="col">Saldo</th>
+                        <th scope="col"></th>
                     </tr>
-                }
-                @if(!Model.Any())
-                {
-                    <tr>
-                        <td colspan="6" class="text-center text-muted">Nenhum registro encontrado.</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    </div>
-
-    <div class="d-flex justify-content-between align-items-center mt-3 flex-wrap">
-        <a asp-controller="Home" asp-action="Index" class="btn btn-secondary text-white" style="background-color: #a3a3a3; border-color: #a3a3a3; border-radius: 20px; padding: 6px 20px;">Voltar</a>
-        
-        <div class="d-flex align-items-center mb-2 mb-md-0">
-            <button class="btn btn-sm btn-link text-decoration-none text-muted">&lt; Anterior</button>
-            <span class="mx-2 border px-3 py-1 bg-white">1 de 1</span>
-            <button class="btn btn-sm btn-link text-decoration-none text-muted">Próximo &gt;</button>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <th scope="col">@item.Nome</th>
+                            <th scope="col">
+                                @if (item.Status == "Em dia")
+                                {
+                                    <span class="badge text-dark fw-normal" style="background-color: #e0e0e0; border: 1px solid #ccc; padding: 6px 12px; border-radius: 12px;">Em dia</span>
+                                }
+                                else if (item.Status == "Atrasado")
+                                {
+                                    <span class="badge text-dark fw-normal" style="background-color: #d0d0d0; border: 1px solid #aaa; padding: 6px 12px; border-radius: 12px;">Atrasado</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-light text-dark border fw-normal" style="padding: 6px 12px; border-radius: 12px;">@item.Status</span>
+                                }
+                            </th>
+                            <th scope="col">@(item.UltimoPagamento.HasValue ? item.UltimoPagamento.Value.ToString("dd/MM/yyyy") : "-")</th>
+                            <th scope="col">@(item.ProximoPagamento.HasValue ? item.ProximoPagamento.Value.ToString("dd/MM/yyyy") : "-")</th>
+                            <th scope="col">@(item.Saldo.ToString("C"))</th>
+                            <td>
+                                <div class="btn-group" role="group">
+                                    <a role="button" class="btn btn-secondary m-2" style="border-radius: 20px;" asp-controller="Mensalidades" asp-action="Detalhes" asp-route-id="@item.AlunoId">Detalhes</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
         </div>
-    </div>
-
-    <div class="d-flex align-items-center mt-4">
-        <span class="text-muted me-3">Legenda:</span>
-        <span class="me-3 d-flex align-items-center"><span style="display:inline-block; width:20px; height:12px; background-color:#e0e0e0; border:1px solid #ccc; border-radius:4px; margin-right:5px;"></span> Em dia</span>
-        <span class="d-flex align-items-center"><span style="display:inline-block; width:20px; height:12px; background-color:#d0d0d0; border:1px solid #aaa; border-radius:4px; margin-right:5px;"></span> Atrasado</span>
-    </div>
+    }
 </div>

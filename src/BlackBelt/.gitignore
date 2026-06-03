@@ -1,1 +1,160 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio IDE
 .vs/
+.vscode/
+*.code-workspace
+
+# Visual Studio user files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.VC.db
+*.vcxproj.filters
+.projects
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+
+# Resharper
+.idea/
+*.sln.iml
+*.DotSettings.user
+*.sln.iml
+
+# Local History for Visual Studio
+.localhistory/
+
+# Visual Studio Profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Rider
+.idea/
+.rider/
+*.sln.iml
+*.DotSettings.user
+
+# .NET
+*.csproj.user
+appsettings.local.json
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+
+# Entity Framework
+*.db
+*.db-shm
+*.db-wal
+*.mdf
+*.ldf
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Packages
+packages/
+.packages/
+!**/packages/build/
+
+# Runtime
+.runtimeconfig.json
+runtimes/
+
+# Node modules (para projetos que usem Node.js)
+node_modules/
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.tmp
+
+# IDE files
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+
+# Testing
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Build output
+artifacts/
+bin/
+obj/
+dist/
+
+# Miscellaneous
+*.log
+*.stackdump
+temp/
+tmp/
+.env
+.env.local
+.env.*.local
+
+# Mac
+.AppleDouble
+.LSOverride
+*.swp
+
+# Visual Studio profiler files
+*.vsp
+*.vspx
+*.psess
+
+# Coverage reports
+coverage/
+coverage.xml
+opencoverage/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
