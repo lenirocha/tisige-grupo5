@@ -31,7 +31,7 @@
 ## **f. Cadastro de Instrutores**
 ![Cadastro de Instrutores](images/f.Cadastro-de-Instrutores.jpeg)
 
-* **Processos envolvidos: Cadastro de instrutor e visualização das turmas relacionadas ao mesmo;
+* **Processos envolvidos: Cadastro de instrutor e visualização das turmas relacionadas ao mesmo;**
 
 ## **g. Controle Financeiro dos Mensalistas**
 ![Controle Financeiro dos Mensalistas](images/g.Controle-Financeiro-dos-Mensalistas.jpeg)
