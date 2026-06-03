@@ -1,7 +1,6 @@
 # 3. Problemática e Justificativa  
 
 ---
-
 ## 3.1 Problemática
 
 No contexto atual das academias de artes marciais, especialmente aquelas focadas no ensino de Jiu-jitsu, observa-se uma crescente demanda por organização e acompanhamento sistemático das atividades dos alunos. O aumento no número de praticantes, aliado à diversidade de níveis técnicos e objetivos individuais, torna a gestão manual limitada, ineficiente e suscetível a falhas. 
