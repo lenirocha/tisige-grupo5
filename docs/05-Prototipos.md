@@ -8,4 +8,8 @@
 
 * **Processos envolvidos:**  Lançamento da presença dos alunos na aula do dia, de acordo com cada turma;
 
-  ## **c. Tela de saída**
+## **c. Tela de saída**
+
+* **Processos envolvidos: logout do usuário da aplicação;**
+
+## d. Menu Inicial:**
