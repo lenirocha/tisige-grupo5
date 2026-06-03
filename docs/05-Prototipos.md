@@ -1,0 +1,11 @@
+# 5. Protótipos
+
+## **a. Tela de entrada**
+
+* **Processos envolvidos:** login de usuários da aplicação;
+
+## **b. Tela de frequência de alunos**
+
+* **Processos envolvidos:**  Lançamento da presença dos alunos na aula do dia, de acordo com cada turma;
+
+  ## **c. Tela de saída**
