@@ -22,12 +22,11 @@ Como o desenvolvimento de um sistema automatizado pode melhorar a gestão da fre
 
 ## 3.2 Justificativa
 A realização deste projeto se justifica sob três perspectivas: 
-
-<ul>  
+  
 * **Social:** contribui para a melhoria da experiência dos alunos, promovendo um ambiente mais organizado, motivador e propício ao desenvolvimento pessoal. 
 
 * **Corporativa:** auxilia na gestão da academia, reduzindo falhas operacionais, melhorando o controle financeiro e apoiando a tomada de decisões estratégicas. 
 
 * **Acadêmica:** agrega valor ao campo de Sistemas de Informação ao propor uma solução aplicada que integra gestão esportiva e tecnologia, podendo servir como base para estudos futuros. 
-</ul>
+
 
