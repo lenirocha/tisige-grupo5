@@ -29,7 +29,10 @@ Paulo Isnard<br>
 <li><a href="docs/02-Descricao-da-Demanda.md"> Descricao da Demanda</a></li>
 <li><a href="docs/03-Problematica-e-Justificativa.md"> Problemática e Justificativa</a></li>
 <li><a href="docs/04-Objetivos.md"> Objetivos</a></li>
-<li><a href="docs/05-Projeto-interface.md"> Testes</a></li>
+<li><a href="docs/05-Prototipos.md"> Protótipos</a></li>
+<li><a href="docs/06-Referencial-Teórico.md"> Referencial Teórico</a></li>  
+<li><a href="docs/docs/07-Requisitos-do-Sistema.md"> Requisitos do Sistema</a></li>  
+<li><a href="docs/08-Metodologia.md"> Metodologia</a></li>    
 <li><a href="docs/06-Template-padrao.md"> Conclusão</a></li>
 <li><a href="docs/07-Arquitetura-solucao.md"> Referências</a></li>
 
