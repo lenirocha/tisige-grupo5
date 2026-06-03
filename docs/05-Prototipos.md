@@ -1,6 +1,7 @@
 # 5. Protótipos
 
 ## **a. Tela de entrada**
+![Tela de entrada](docs/images/Tela-de-entrada.jfif)
 
 * **Processos envolvidos:** login de usuários da aplicação;
 
