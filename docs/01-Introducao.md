@@ -1,4 +1,4 @@
-# Introdução
+# 1. Introdução
 
 A prática do Jiu-jitsu exige acompanhamento contínuo da evolução técnica e física dos alunos, o que representa um desafio para academias, especialmente com o aumento do número de praticantes. A gestão manual da presença e do desempenho individual tende a ser ineficiente e suscetível a falhas, dificultando a obtenção de informações confiáveis sobre o progresso dos alunos. Nesse contexto, o uso de tecnologias da informação aplicadas ao esporte tem se mostrado essencial, uma vez que sistemas inteligentes de gestão esportiva permitem melhor organização, monitoramento e análise de dados, contribuindo para a tomada de decisões mais eficientes (WU; LIU, 2021).  
 
