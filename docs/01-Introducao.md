@@ -11,7 +11,3 @@ A Academia Sigma, localizada na Rua Anhangá, nº 396, Bairro Eldorado, em Conta
 A instituição foi escolhida devido ao contato frequente de um dos integrantes do grupo com uma das gerentes, além do fato de ser praticante de artes marciais na própria academia. A abordagem inicial ocorreu de forma verbal, questionando a sócia sobre melhorias desejadas nos processos da academia. 
 
 Atualmente, a academia mantém presença ativa no Instagram, compartilhando regularmente fotos e vídeos de treinos e eventos, como sessões de Jiu-jitsu aos sábados e graduações de Muay Thai. Além disso, possui parcerias com profissionais como Gabriela Paes e com a instituição Pilates Sigma, ampliando as opções de treinamento funcional e Pilates disponíveis para os alunos.
-
----
-
-
