@@ -2,12 +2,11 @@
 
 ## 7.1 Requisitos Funcionais (RF) 
 
-<ul>
- RF01 – O sistema deve permitir o cadastro de alunos com dados pessoais (nome, telefone, faixa, etc.).  
+* RF01 – O sistema deve permitir o cadastro de alunos com dados pessoais (nome, telefone, faixa, etc.).  
 
-RF02 – O sistema deve permitir editar e excluir dados dos alunos.  
+* RF02 – O sistema deve permitir editar e excluir dados dos alunos.  
 
-RF03 – O sistema deve permitir o cadastro de professores.  
+* RF03 – O sistema deve permitir o cadastro de professores.  
 
 RF04 – O sistema deve permitir registrar a presença dos alunos em cada aula.  
 
@@ -30,7 +29,6 @@ RF12 – O sistema deve gerar relatórios financeiros básicos.
 RF13 – O sistema deve gerar relatórios integrados de frequência, desempenho e situação financeira.  
 
 RF14 – O sistema deve permitir visualizar dados consolidados para apoio à tomada de decisão.  
-</ul>
  
 
 ## 7.2 Requisitos Não Funcionais (RNF) 
