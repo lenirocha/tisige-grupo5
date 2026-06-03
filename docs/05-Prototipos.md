@@ -12,4 +12,4 @@
 
 * **Processos envolvidos: logout do usuário da aplicação;**
 
-## d. Menu Inicial:**
+## **d. Menu Inicial:**
