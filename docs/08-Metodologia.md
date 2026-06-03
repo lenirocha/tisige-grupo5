@@ -21,16 +21,21 @@ As branches do projeto são estruturadas e nomeadas conforme a seguinte convenç
 A equipe utiliza a metodologia ágil Scrum, adaptada para o ambiente acadêmico, dividindo a execução das atividades e o gerenciamento do escopo do sistema pelas seguintes frentes organizacionais:
 
 #### Sprint 1
-* **Scrum Master:** Vinicius
-* **Protótipos / UX-UI:** Lucas e Vinicius
-* **Testes / Qualidade:** Pedro e Rafael
-* **Documentação / Especificações:** Sandy e Bruna
+* **Scrum Master:** Arthur
+* **Banco de Dados e Modelagem:** Arthur e Bárbara
+* **Desenvolvimento Back-end:** Arthur, Carolina, Pedro e Rafael
+* **Desenvolvimento Front-end:** Bárbara, Leni, Carolina e Arthur
+* **Testes e Validação:** Pedro e Rafael
+* **Documentação e Acompanhamento:** Todos os integrantes
 
 #### Sprint 2
-* **Scrum Master:** Vinicius
-* **Desenvolvedores Front-end:** Lucas, Carolina e Bruna
-* **Desenvolvedores Back-end:** Carolina e Vinicius
-* **Testes / Qualidade:** Pedro e Rafael
+* **Scrum Master:** Arthur
+* **Banco de Dados e Persistência:** Carolina
+* **Desenvolvimento Back-end:** Carolina, Pedro, Bárbara e Leni
+* **Desenvolvimento Front-end:** Rafael, Leni, Arthur e Pedro
+* **Testes e Garantia da Qualidade:** Pedro e Rafael
+* **Documentação de Testes:** Pedro e Rafael
+* **Integração e Validação do Sistema:** Carolina e Pedro
 
 ---
 
