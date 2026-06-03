@@ -33,7 +33,6 @@ Paulo Isnard<br>
 <li><a href="docs/06-Referencial-Teórico.md"> Referencial Teórico</a></li>  
 <li><a href="docs/docs/07-Requisitos-do-Sistema.md"> Requisitos do Sistema</a></li>  
 <li><a href="docs/08-Metodologia.md"> Metodologia</a></li>    
-<li><a href="docs/06-Template-padrao.md"> Conclusão</a></li>
 <li><a href="docs/07-Arquitetura-solucao.md"> Referências</a></li>
 
 </ol>
