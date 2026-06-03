@@ -1,6 +1,6 @@
 # 7. Requisitos do Sistema
 
-7.1 Requisitos Funcionais (RF) 
+## 7.1 Requisitos Funcionais (RF) 
 
 RF01 – O sistema deve permitir o cadastro de alunos com dados pessoais (nome, telefone, faixa, etc.).  
 
@@ -32,7 +32,7 @@ RF14 – O sistema deve permitir visualizar dados consolidados para apoio à tom
 
  
 
-7.2 Requisitos Não Funcionais (RNF) 
+## 7.2 Requisitos Não Funcionais (RNF) 
 
 RNF01 – O sistema deve possuir interface simples e intuitiva.  
 
