@@ -1,5 +1,5 @@
 # 3. Problemática e Justificativa  
----
+
 ## 3.1 Problemática
 
 No contexto atual das academias de artes marciais, especialmente aquelas focadas no ensino de Jiu-jitsu, observa-se uma crescente demanda por organização e acompanhamento sistemático das atividades dos alunos. O aumento no número de praticantes, aliado à diversidade de níveis técnicos e objetivos individuais, torna a gestão manual limitada, ineficiente e suscetível a falhas. 
@@ -15,7 +15,6 @@ A falta de integração entre frequência, desempenho e situação financeira im
 Diante desse cenário, surge a seguinte questão de pesquisa: 
 
 Como o desenvolvimento de um sistema automatizado pode melhorar a gestão da frequência, o acompanhamento do desempenho técnico e o controle financeiro dos alunos de Jiu-jitsu em uma academia? 
----
 
 ## 3.2 Justificativa
 A realização deste projeto se justifica sob três perspectivas: 
