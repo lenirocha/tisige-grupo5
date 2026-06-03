@@ -17,23 +17,23 @@
 
 * **Processos envolvidos: logout do usuário da aplicação;**
 
-## **d. Menu Inicial:**
+## **d. Menu Inicial**
 ![Menu inicial](images/d.Menu-Inicial.jpeg)
 
-* **Processos envolvidos:  links para as telas de cadastro de alunos, cadastro de instrutores, turmas, perfis de alunos, relatórios e frequências;
+* **Processos envolvidos:**  links para as telas de cadastro de alunos, cadastro de instrutores, turmas, perfis de alunos, relatórios e frequências;
 
-## **e. Cadastro de aluno e habilidades
+## **e. Cadastro de aluno e habilidades**
 ![Cadastro de aluno e habilidades](images/e.Cadastro-de-aluno-e-habilidades.jpeg)
 ![Cadastro de aluno e habilidades](images/e.Cadastro-de-aluno-e-habilidades2.jpeg)
 
 * **Processos envolvidos: Cadastro de aluno e suas devidas habilidades, ranqueadas por níveis;
 
-## **f. Cadastro de Instrutores
+## **f. Cadastro de Instrutores**
 ![Cadastro de Instrutores](images/f.Cadastro-de-Instrutores.jpeg)
 
 * **Processos envolvidos: Cadastro de instrutor e visualização das turmas relacionadas ao mesmo;
 
-## **g. Controle Financeiro dos Mensalistas
+## **g. Controle Financeiro dos Mensalistas**
 [Controle Financeiro dos Mensalistas](images/g.Controle-Financeiro-dos-Mensalistas.jpeg)
 
 * **Processos envolvidos: Listagem dos alunos de forma que o usuário administrador acompanha o pagamento das mensalidades deles. 
