@@ -1,5 +1,21 @@
 # 8. Metodologia
 
+O desenvolvimento deste projeto foi conduzido a partir da identificação de uma demanda real da Academia Sigma, localizada em Contagem/MG. A definição do problema ocorreu por meio de reuniões com a gerência da instituição e da experiência prática de um dos integrantes da equipe como aluno da academia, possibilitando compreender as dificuldades relacionadas ao controle de frequência, ao acompanhamento da evolução técnica dos praticantes e à gestão financeira das mensalidades.
+
+Após a identificação da demanda, foi realizado o levantamento dos requisitos funcionais e não funcionais do sistema, considerando as necessidades apresentadas pela instituição parceira. Nessa etapa foram definidos os principais processos que deveriam ser apoiados pela solução, incluindo autenticação de usuários, cadastro de alunos, professores e turmas, registro de frequência, acompanhamento das habilidades técnicas dos praticantes e controle financeiro.
+
+Como forma de fundamentar a proposta, foi realizada uma pesquisa bibliográfica sobre Sistemas de Informação aplicados à gestão esportiva e administrativa, permitindo compreender como ferramentas computacionais podem contribuir para a organização, o monitoramento e a tomada de decisões em instituições desse segmento.
+
+Com base nos requisitos levantados, foram elaborados protótipos das principais interfaces do sistema, possibilitando a validação inicial das funcionalidades e da experiência de uso. Os protótipos contemplaram as telas de login, gerenciamento de usuários, gerenciamento de alunos e turmas, registro de presença, acompanhamento de desempenho técnico e controle financeiro.
+
+A implementação do sistema foi conduzida de forma incremental, utilizando uma adaptação da metodologia ágil Scrum para o contexto acadêmico. O desenvolvimento foi organizado em duas sprints, nas quais as atividades foram distribuídas entre os integrantes da equipe de acordo com suas responsabilidades. O acompanhamento das tarefas foi realizado por meio de um quadro Kanban, permitindo monitorar o andamento, os prazos e a conclusão de cada funcionalidade planejada.
+
+Para o gerenciamento do código-fonte e controle de versões, foi adotada a estratégia Git Flow, utilizando as branches main, develop, feature e hotfix para organizar o desenvolvimento, a integração de funcionalidades e a correção de eventuais problemas, garantindo maior estabilidade e rastreabilidade das alterações realizadas no projeto.
+
+Durante cada sprint foram realizados testes funcionais e validações das funcionalidades implementadas, assegurando a conformidade com os requisitos definidos e contribuindo para a qualidade da solução desenvolvida.
+
+Dessa forma, a metodologia adotada combinou levantamento de requisitos junto à instituição parceira, pesquisa bibliográfica, prototipação das interfaces, desenvolvimento incremental baseado em Scrum, utilização de Git Flow para controle de versões e validação contínua das funcionalidades implementadas.
+
 ## Controle de versão
 
 O projeto segue a convenção do Git Flow para a organização e ciclo de vida das ramificações (branches) no repositório do GitHub. Essa abordagem permite o desenvolvimento paralelo de funcionalidades de forma organizada, garantindo a estabilidade do código principal.
