@@ -7,7 +7,6 @@
 * **Processos envolvidos:** login de usuários da aplicação;
 
 ## **b. Tela de frequência de alunos**
-images
 ![Tela de frequência](images/b.Tela-de-frequência-de-aluno.jpeg)
 ![Tela de frequência](images/b.Tela-de-frequência-de-aluno2.jpeg)
 
@@ -35,6 +34,6 @@ images
 * **Processos envolvidos: Cadastro de instrutor e visualização das turmas relacionadas ao mesmo;
 
 ## **g. Controle Financeiro dos Mensalistas
-"[Controle Financeiro dos Mensalistas](images/g.Controle-Financeiro-dos-Mensalistas.jpeg)
+[Controle Financeiro dos Mensalistas](images/g.Controle-Financeiro-dos-Mensalistas.jpeg)
 
 * **Processos envolvidos: Listagem dos alunos de forma que o usuário administrador acompanha o pagamento das mensalidades deles. 
