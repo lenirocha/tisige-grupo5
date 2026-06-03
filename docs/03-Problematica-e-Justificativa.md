@@ -14,7 +14,7 @@ A falta de integração entre frequência, desempenho e situação financeira im
 
 Diante desse cenário, surge a seguinte questão de pesquisa: 
 
-Como o desenvolvimento de um sistema automatizado pode melhorar a gestão da frequência, o acompanhamento do desempenho técnico e o controle financeiro dos alunos de Jiu-jitsu em uma academia? 
+###Como o desenvolvimento de um sistema automatizado pode melhorar a gestão da frequência, o acompanhamento do desempenho técnico e o controle financeiro dos alunos de Jiu-jitsu em uma academia? 
 
 ## 3.2 Justificativa
 A realização deste projeto se justifica sob três perspectivas: 
