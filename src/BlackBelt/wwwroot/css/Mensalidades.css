@@ -1,0 +1,151 @@
+/*Index*/
+body {
+    background-color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+table {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Botões */
+.filter-btn {
+    background-color: #3b2b1a;
+    color: white;
+    border-radius: 20px;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    color: white;
+}
+
+.btn-dark {
+    background-color: #212529;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-dark:hover {
+    background-color: #000;
+}
+
+/* Campos de filtro */
+.form-control,
+.form-select {
+    background-color: #e5e5e5;
+    border: none;
+    border-radius: 20px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: #e5e5e5;
+    border: none;
+    box-shadow: 0 0 0 0.2rem rgba(59, 43, 26, 0.25);
+}
+
+.rounded-pill {
+    border-radius: 50px;
+}
+
+.border-dark {
+    border: 1px solid #212529;
+}
+
+/* Espaçamento dos filtros */
+.filter-section {
+    margin: 20px 0;
+}
+
+/* Tabela */
+.tabelaInfo {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.tabelaInfo thead {
+    background-color: #f8f9fa;
+}
+
+.tabelaInfo th,
+.tabelaInfo td {
+    padding: 12px;
+    border-bottom: 1px solid #dee2e6;
+    text-align: center;
+}
+
+.tabelaInfo tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Badge Status */
+.badge {
+    display: inline-block;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.m-5 {
+    margin: 3rem;
+}
+
+.m-2 {
+    margin: 0.5rem;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.btn-group {
+    display: flex;
+    gap: 0.5rem;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .col-md-4,
+    .col-md-2 {
+        width: 100% !important;
+    }
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .d-flex > * {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}
