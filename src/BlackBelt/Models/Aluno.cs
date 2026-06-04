@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BlackBelt.Models
@@ -41,5 +41,7 @@ namespace BlackBelt.Models
         public IEnumerable<Presenca> Presencas { get; set; }
 
         public IEnumerable<Habilidade> Habilidades { get; set; }
+
+        public IEnumerable<Mensalidade> Mensalidades { get; set; }
     }
 }

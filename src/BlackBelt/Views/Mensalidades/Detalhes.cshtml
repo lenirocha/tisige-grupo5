@@ -1,0 +1,68 @@
+@model BlackBelt.Models.Aluno
+
+@{
+    ViewData["Title"] = "Detalhes da Mensalidade";
+}
+
+<div class="container mt-4">
+    <h2>Detalhes Financeiros - @Model.Nome</h2>
+    <hr />
+    
+    <div class="card mb-4">
+        <div class="card-body">
+            <h5 class="card-title">Informações do Aluno</h5>
+            <p><strong>CPF:</strong> @Model.Cpf</p>
+            <p><strong>Email:</strong> @Model.Email</p>
+            <p><strong>Faixa:</strong> @Model.Faixa</p>
+        </div>
+    </div>
+
+    <h4>Histórico de Mensalidades</h4>
+    <table class="table table-striped mt-3">
+        <thead>
+            <tr>
+                <th>Vencimento</th>
+                <th>Data Pagamento</th>
+                <th>Valor</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Mensalidades != null && Model.Mensalidades.Any())
+            {
+                foreach (var mensalidade in Model.Mensalidades.OrderByDescending(m => m.DataVencimento))
+                {
+                    <tr>
+                        <td>@mensalidade.DataVencimento.ToString("dd/MM/yyyy")</td>
+                        <td>@(mensalidade.DataPagamento.HasValue ? mensalidade.DataPagamento.Value.ToString("dd/MM/yyyy") : "-")</td>
+                        <td>@mensalidade.Valor.ToString("C")</td>
+                        <td>
+                            @if (mensalidade.Status == "Em dia")
+                            {
+                                <span class="badge bg-success">@mensalidade.Status</span>
+                            }
+                            else if (mensalidade.Status == "Atrasado")
+                            {
+                                <span class="badge bg-danger">@mensalidade.Status</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary">@mensalidade.Status</span>
+                            }
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="4" class="text-center text-muted">Nenhum registro de mensalidade encontrado.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="mt-4">
+        <a asp-action="Index" class="btn btn-secondary" style="background-color: #a3a3a3; border-color: #a3a3a3; border-radius: 20px; padding: 6px 20px;">Voltar</a>
+    </div>
+</div>

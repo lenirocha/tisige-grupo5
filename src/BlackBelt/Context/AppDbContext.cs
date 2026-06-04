@@ -1,4 +1,4 @@
-﻿using BlackBelt.Models;
+using BlackBelt.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace BlackBelt.Context
@@ -15,6 +15,7 @@ namespace BlackBelt.Context
         public DbSet<Turma> Turmas { get; set; }
         public DbSet<Presenca> Presencas { get; set; }
         public DbSet<Habilidade> Habilidades { get; set; }
+        public DbSet<Mensalidade> Mensalidades { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -46,6 +47,12 @@ namespace BlackBelt.Context
                 .HasOne(h => h.Aluno)
                 .WithMany(a => a.Habilidades)
                 .HasForeignKey(h => h.Id_Aluno)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Mensalidade>()
+                .HasOne(m => m.Aluno)
+                .WithMany(a => a.Mensalidades)
+                .HasForeignKey(m => m.Id_Aluno)
                 .OnDelete(DeleteBehavior.Cascade);
 
         }
